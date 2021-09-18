@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'FontAwesome';
+    src: url(../iconfonts/fa-brands-400.woff2);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url(../iconfonts/fa-duotone-900.woff2);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url(../iconfonts/fa-light-300.woff2);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url(../iconfonts/fa-regular-400.woff2);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url(../iconfonts/fa-solid-900.woff2);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'NSR';
+    src: url(../fonts/NotoSans-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'NSR';
+    src: url(../fonts/NotoSans-Regular.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'NSR';
+    src: url(../fonts/NotoSans-Regular.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'NSR';
+    src: url(../fonts/NotoSans-Regular.ttf);
+    font-weight: 600;
+}
+
+.fal {
+    display: inline-block;
+    font-family: 'FontAwesome';
+    font-style: normal;
+    transition: .5s;
+}

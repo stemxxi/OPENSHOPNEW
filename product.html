@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Shop</title>
+    <link rel="stylesheet" href="libs/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+</head>
+
+<body>
+    <!--header start-->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="header__toggler fal"></span>
+          </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="header__nav-link" role="button" data-bs-toggle="dropdown">
+                                English <span class="chevron fal"></span></a>
+
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item submenu__item" href="#">English</a></li>
+                                <li><a class="dropdown-item disabled" href="#">Russian</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="header__nav-link" aria-current="page" href="tel:(907) 555-0101"><span class="phone fal"></span>(907) 555-0101</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="header__nav-link" href="#"><span class="user fal"></span>Sing in</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="header__nav-link" href="#"><span class="shopping-cart fal"></span>Cart</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <nav class="nav">
+            <div class="container">
+                <div class="header__nav d-flex">
+                    <a href="index.html" class="navbar-brand header__logo"></a>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="What are you looking for?">
+                        <button class="header__nav-btn" type="button" id="button-addon2"><i class="fal fa-search"></i>SEARCH OUR STORE</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-expand-lg bg-light mt-4">
+            <div class="container">
+                <div class="header__nav-menu w-100">
+                    <ul class="navbar-nav d-flex justify-content-between">
+
+                        <li class="nav__menu-item dropdown text-decoration-underline">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                                Cell Phones & Tablets</a>
+                            <div class="submenu__items dropdown-menu submenu" aria-labelledby="navbarDropdownMenuLink">
+                                <div class="submenu__links">
+                                    <div class="submenu__link">
+                                        <ul>
+                                            <li><a class="dropdown-item text-decoration-underline margin__bottom" href="#">Cell Phones</a></li>
+                                            <li><a class="dropdown-item" href="#">Xiaomi</a></li>
+                                            <li><a class="dropdown-item" href="#">Apple</a></li>
+                                            <li><a class="dropdown-item" href="#">Samsung</a></li>
+                                            <li><a class="dropdown-item" href="#">Huawei</a></li>
+                                            <li><a class="dropdown-item" href="#">BQ</a></li>
+                                            <li><a class="dropdown-item" href="#">Nokia</a></li>
+                                            <li><a class="dropdown-item" href="#">Inoi</a></li>
+                                            <li><a class="dropdown-item" href="#">Vivo</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="submenu__link">
+                                        <ul>
+                                            <li><a class="dropdown-item margin__bottom" href="#">Tablets</a></li>
+                                            <li><a class="dropdown-item" href="#">Xiaomi</a></li>
+                                            <li><a class="dropdown-item" href="#">Apple</a></li>
+                                            <li><a class="dropdown-item" href="#">Samsung</a></li>
+                                            <li><a class="dropdown-item" href="#">Huawei</a></li>
+                                            <li><a class="dropdown-item" href="#">BQ</a></li>
+                                            <li><a class="dropdown-item" href="#">More...</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav__menu-item">
+                            <a class="nav-link" href="#"> Computers & Laptop</a>
+                        </li>
+                        <li class="nav__menu-item">
+                            <a class="nav-link" href="#">TV & Video</a>
+                        </li>
+                        <li class="nav__menu-item">
+                            <a class="nav-link" href="#">Asseccories</a>
+                        </li>
+                        <li class="nav__menu-item">
+                            <a class="nav-link" href="#">Home appliance</a>
+                        </li>
+                        <li class="nav__menu-item">
+                            <a class="nav-link" href="#">Video Games & Consoles</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--header end-->
+
+    <!--main start-->
+    <main class="main">
+        <section class="main__product">
+            <div class="container">
+                <div class="row">
+                    <div class="main__product-cards d-flex">
+                        <ul class="nav nav-tabs flex-column" id="product">
+                            <li class="product-item active">
+                                <a class="product-link" data-bs-toggle="tab" aria-current="page" href="#iphone12__pro-max"><img src="images/iphone12__pro-max_small.png" alt="iphone12__pro-max_small"></a>
+                            </li>
+                            <li class="product-item">
+                                <a class="product-link" data-bs-toggle="tab" href="#iphone12__pro-max_big1"><img src="images/iphone12__pro-max_small2.png" alt="iphone12__pro-max_small2"></a>
+                            </li>
+                            <li class="product-item">
+                                <a class="product-link" data-bs-toggle="tab" href="#iphone12__pro-max_big2"><img src="images/iphone12__pro-max_small3.png" alt="iphone12__pro-max_small3"></a>
+                            </li>
+                        </ul>
+                        <div class="tab-content p-3">
+                            <img class="tab-pane fade show active w-100" id="iphone12__pro-max" src="images/iphone12__pro-max_big.png">
+                            <img src="images/iphone12__pro-max_big01.png" alt="" class="tab-pane fade w-100" id="iphone12__pro-max_big1">
+                            <img src="images/iphone12__pro-max_big02.png" alt="" class="tab-pane fade w-100" id="iphone12__pro-max_big2">
+                        </div>
+                        <div class="main__product-description">
+                            <h2 class="main__product-title">Apple iPhone 12 Pro Max 128GB (Gray)</h2>
+                            <span class="main__product-price">1300$</span>
+                            <h3 class="main__product-subtitle">Product Highlights</h3>
+                            <ul class="main__product-items">
+                                <li class="main__product-item">128 GB ROM</li>
+                                <li class="main__product-item">13.72 cm (5.4 inch) Super Retina XDR Display</li>
+                                <li class="main__product-item">12MP + 12MP | 12MP Front Camera</li>
+                                <li class="main__product-item">A14 Bionic Chip with Next Generation Neural Engine Processor</li>
+                                <li class="main__product-item">Ceramic Shield</li>
+                                <li class="main__product-item">IP68 Water Resistance</li>
+                                <li class="main__product-item">All Screen OLED Display</li>
+                                <li class="main__product-item">The shipment for this product will begin from 14th November 2020</li>
+                            </ul>
+                            <div class="main__product-btns">
+                                <a href="#" class="product__btn-cart fal">CART</a>
+                                <a href="#" class="product__btn-buy">BUY NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main__playstation mt-5 position-relative">
+            <div class="container">
+                <div class="main__playstation-info position-relative">
+                    <img src="images/playstation__vr.png" alt="xbox__controller" class="playstation__vr w-100">
+                    <h2 class="playstation--vr-title position-absolute">Plastation VR</h2>
+                    <p class="playstation__desc position-absolute">Over 500 games and experiences and counting. See them all</p>
+                    <a href="#" class="playstation__vr-btn position-absolute">LEARN MORE</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--main end-->
+
+    <!--footer start-->
+    <nav class="navbar mt-5 footer__product">
+        <div class="container">
+            <div class="row w-100">
+                <div class="footer__nav d-flex align-items-center justify-content-center">
+                    <a class="navbar-brand"><img src="images/Logo-dark.png" alt=""></a>
+                    <div class="footer__input  d-flex flex-column">
+                        <h3 class="input__text">Subscribe to Newslatter</h3>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control footer__control">
+                            <button class="footer__nav-btn" type="button">SING UP</button>
+                        </div>
+                        <div class="footer__links">
+                            <a href="#" class="footer__link">News</a>
+                            <a href="#" class="footer__link">Help</a>
+                            <a href="#" class="footer__link">Contact</a>
+                        </div>
+                    </div>
+                    <div class="footer__social-medias d-flex">
+                        <a href="#" class="social__media"><img src="images/telegram.png" alt="telegram"></a>
+                        <a href="#" class="social__media"><img src="images/facebook.png" alt="facebook"></a>
+                        <a href="#" class="social__media"><img src="images/instagram.png" alt="instagram"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--footer end-->
+
+
+
+    <script src="libs/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
